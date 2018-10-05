@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/theme_orange</item>
+    </style>
+
+    <style name="TextHeading" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/theme_black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
